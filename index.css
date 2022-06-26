@@ -6,7 +6,7 @@ body{
     display: flex;
     width: 100%;
     height: 500px;
-    background-image: url(ceremonialuz2.jpg);
+    background-image: url(centromesablanco1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -30,20 +30,20 @@ h1{
     text-align:left;
     font-family: 'Petit Formal Script', cursive;
     font-style: oblique;
-    text-align: center;
     font-size: 2rem;
+    text-align: center;
+
 }
 .novios{
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: auto;
     height: 500px;
     box-sizing: border-box;
-    padding: 10px;
     margin-left: 10px;
     border-left: 20px solid #ffddd2;
-    border-bottom: 10px solid #ddbea8;
-    position: relative;
+    border-bottom: 10px solid #ffddd2;
+    
 }
 .novios img{
     width: 50%;
@@ -52,6 +52,7 @@ h1{
     box-shadow: -17px 23px 13px -6px rgba(226,149,120,0.75);
     -webkit-box-shadow: -17px 23px 13px -6px rgba(226,149,120,0.75);
     -moz-box-shadow: -17px 23px 13px -6px rgba(226,149,120,0.75);
+    box-sizing: border-box;
 }
 .presentacion{
     width: 30%;
@@ -66,6 +67,7 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    box-sizing: border-box;
 }
 .toggle{
     display: flex;
@@ -77,7 +79,7 @@ h1{
     width: 100px;
     margin-top: 0px;
     float: right;
-    position:;
+    
     
 }
 .toggle a{
@@ -98,19 +100,34 @@ h1{
 .invitacion{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 30px;
+    align-items: center;
 }
 .invitacion img{
     width: 25%;
     height: auto;
-    box-shadow: 10px -9px 5px 0px rgba(131,197,190,0.75);
--webkit-box-shadow: 10px -9px 5px 0px rgba(131,197,190,0.75);
--moz-box-shadow: 10px -9px 5px 0px rgba(131,197,190,0.75);
+    box-shadow: 10px -9px 5px 11px rgba(221,190,168,0.75);
+    -webkit-box-shadow: 10px -9px 5px 11px rgba(221,190,168,0.75);
+    -moz-box-shadow: 10px -9px 5px 11px rgba(221,190,168,0.75);
 }
 .invi {
+    background-color: #FFFCE5;
+}
+.invi h2{
+    font-family: 'Bad Script', cursive;
+    font-size: 3rem;
+    padding-left: 30px;
+    padding-top: 15px;
+    margin-bottom: 0;
     
 }
 
-
+.invi p{
+    font-family: 'Bad Script', cursive;
+    font-size: 1.8rem;
+    padding: 30px;
+    margin-top: 0;
+}
 
 
 @media (max-width:1200px){
@@ -120,7 +137,7 @@ h1{
         height: auto;
     }
     .novios img{
-        width: 80%;
+        width: 70%;
         margin-top: 20px;
     }
     .presentacion{
@@ -173,5 +190,13 @@ h1{
     .menu-toggle:checked + .toggle{
         display: block;
     }
-    
+    .novios img{
+        width: 100%;
+    }
+    .invitacion{
+        flex-direction: column;
+    }
+    .invitacion img{
+        width: 70%;
+    }
 }
