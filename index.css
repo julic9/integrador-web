@@ -1,0 +1,177 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+.nombre{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url(ceremonialuz2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.marca{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(17, 17, 17, 0.6);
+    margin-top: 400px;
+    border-bottom: 5px solid #ddbea8;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    word-spacing: 4px;
+    font-style: oblique;
+}
+h1{
+    text-align:left;
+    font-family: 'Petit Formal Script', cursive;
+    font-style: oblique;
+    text-align: center;
+    font-size: 2rem;
+}
+.novios{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 10px;
+    border-left: 20px solid #ffddd2;
+    border-bottom: 10px solid #ddbea8;
+    position: relative;
+}
+.novios img{
+    width: 50%;
+    height: 400px;
+    margin-top: 30px;
+    box-shadow: -17px 23px 13px -6px rgba(226,149,120,0.75);
+    -webkit-box-shadow: -17px 23px 13px -6px rgba(226,149,120,0.75);
+    -moz-box-shadow: -17px 23px 13px -6px rgba(226,149,120,0.75);
+}
+.presentacion{
+    width: 30%;
+    font-family: 'Bad Script', cursive;
+    font-size: 1.2rem;
+    font-weight: 200;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.toggle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #ddbea8;
+    border-radius: 7px;
+    padding: 20px;
+    width: 100px;
+    margin-top: 0px;
+    float: right;
+    position:;
+    
+}
+.toggle a{
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: #fafafa;
+    font-family: 'Bad Script', cursive;
+    font-weight: 600;
+}
+.toggle li{
+    list-style: none;
+}
+.logo input{
+    display: none;
+}
+.invitacion{
+    display: flex;
+    justify-content: space-around;
+}
+.invitacion img{
+    width: 25%;
+    height: auto;
+    box-shadow: 10px -9px 5px 0px rgba(131,197,190,0.75);
+-webkit-box-shadow: 10px -9px 5px 0px rgba(131,197,190,0.75);
+-moz-box-shadow: 10px -9px 5px 0px rgba(131,197,190,0.75);
+}
+.invi {
+    
+}
+
+
+
+
+@media (max-width:1200px){
+    .novios{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .novios img{
+        width: 80%;
+        margin-top: 20px;
+    }
+    .presentacion{
+        width: 80%;
+    }
+}
+@media (max-width:700px){
+    .menu-button{
+        margin-top: 0px;
+        margin-right: 20px;
+        float: right;
+        align-self: flex-end;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 30px;
+        height: 25px;
+        padding: 10px;
+        border-radius: 7px;
+        background: #ddbea8;
+        cursor: pointer;
+        
+    }
+    .menu-button span{
+        width: 30px;
+        height: 2px;
+        background: black;
+    }
+    .menu-toggle{
+        display: none;
+    
+    }
+    .toggle{
+        display: none;
+        text-align: center;
+        background: #ddbea8;
+        border-radius: 7px;
+        padding: 20px;
+        width: 100px;
+        margin-top: 0px;
+        float: right;
+        
+    }
+    .toggle li{
+        list-style: none;
+        display: block;
+        padding: 10px 0;
+        color: #fafafa;
+    }
+    .menu-toggle:checked + .toggle{
+        display: block;
+    }
+    
+}
