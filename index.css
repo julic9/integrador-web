@@ -129,8 +129,113 @@ h1{
     margin-top: 0;
 }
 
-
-@media (max-width:1200px){
+.cake{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.explicacion{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    box-sizing: border-box;
+    border-top: solid 20px rgba(0, 0, 0, 0.5);
+    border-left: solid 30px black;
+}
+.explicacion p{
+    font-family: 'Bad Script', cursive;
+    font-size: 1.8rem;
+    padding: 30px;
+    margin-top: 0;
+    
+}
+.explicacion h2{
+    font-family: 'Bad Script', cursive;
+    font-size: 3rem;
+    padding-left: 30px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+.container{
+    margin: auto;
+    background-color: white;
+    width: 700px;
+    height: 600px;
+    padding: 30px;
+    border-bottom: solid 30px #ddbea8;
+    border-right: solid 20px #ddbea857;
+    
+    
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 700px;
+    height: 500px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:#fff;
+  }
+  
+  ul.slider li img{
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; 
+  }
+  
+  ul.slider li:target {
+      opacity: 1; 
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 8px;
+    height: 40px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    background-color: #ddbea8;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 100%;
+    font-family: 'Petit Formal Script', cursive;
+    text-align: center;
+  }
+  @media (max-width:1200px){
     .novios{
         flex-direction: column;
         align-items: center;
@@ -141,6 +246,20 @@ h1{
         margin-top: 20px;
     }
     .presentacion{
+        width: 80%;
+    }
+    .cake{
+        flex-direction: column;
+        align-items: center ;
+    }
+    .explicacion{
+        width: 80%;
+    }
+    .conteiner{
+        width: 80%;
+        height: auto;
+    }
+    .slaider{
         width: 80%;
     }
 }
@@ -199,4 +318,5 @@ h1{
     .invitacion img{
         width: 70%;
     }
+    
 }
