@@ -567,34 +567,7 @@ h1{
     .marcas{
         gap: 30px;
     }
-    /*.mesas {
-        display: flex;
-        box-sizing: border-box;
-        align-items: center;
-        max-height: 1500px;
-        width: 100%;
-        flex-direction: column;
-        border-top: 5px solid black;
-        border-bottom: 5px solid black;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        
-    }
-    .div1, .div4{
-        width: 200px;
-        height: 300px;
-    }
-    .div2, .div3{
-        width: 400px;
-        height: 250px;
-    }
-    .div5{
-        width: 100%;
-        height: 40px;
-    }
-    .div5 h2{
-        font-size: 1.2rem;
-    }*/
+    
     
 }
     
@@ -622,7 +595,18 @@ h1{
     .invitacion img{
         width: 70%;
     }
-    
+    .trajes{
+        gap: 15px;
+    }
+    .ambos{
+        width: 100%;
+        gap: 4px 4px;
+
+    }
+    .el{
+        width: 100%;
+        gap: 4px 4px;
+    }
 }
 @media (max-width:530px){
     .nosotras{
@@ -631,9 +615,7 @@ h1{
     }
 }
 @media (max-width:450px){
-    /*.div2, .div3{
-        width: 100%;
-    }*/
+    
     .marcas img{
         width: 100px;
         height: 100px;
