@@ -49,7 +49,25 @@ body {
 .toggle a:hover {
     background-color: #dd9b6d;
 }
-
+.button-flotante{
+    font-size: 1.1rem;
+	font-weight: 300;
+	color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    width: 100px;
+	border-radius: 5px; 
+	letter-spacing: 1.5px; 
+	background-color: #ddbea8a2;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	z-index: 99;
+}
+.button-flotante:hover{
+    background-color: #dd9b6d;
+}
 .toggle li {
     list-style: none;
 
@@ -575,7 +593,7 @@ ul.slider li:target {
     font-family: 'Bebas Neue', cursive;
     font-size: 2.5rem;
     font-weight: 300;
-    margin-top: 0px;
+    margin-top: 30px;
 }
 
 .iconos h4 {
@@ -771,6 +789,13 @@ ul.slider li:target {
     }
     .iconos {
         width: 60%;
+    }
+    .button-flotante{
+        width: 60px;
+        font-size: 0.8rem;
+        bottom: 20px;
+        right: 20px;
+
     }
 }
 
