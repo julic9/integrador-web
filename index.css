@@ -877,6 +877,13 @@ ul.slider li:target {
 
     .trajes {
         gap: 15px;
+        padding: 8px;
+    }
+    .ambos{
+        width: 100%;
+    }
+    .el{
+        width: 90%;
     }
 
     .div5 h2 {
@@ -912,6 +919,9 @@ ul.slider li:target {
 @media (max-width:530px) {
     .nosotras {
         width: 100%;
+    }
+    .fiesta {
+        padding: 6px;
     }
 
 }
