@@ -1,6 +1,8 @@
 body{
     background-color: black;
     font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: column;
 }
 .contenedor{
     display: flex;
@@ -76,6 +78,13 @@ a{
 button:hover{
     background-color: black;
     color: white;
+}
+.volver {
+    display: inline-block;
+    color: white;
+    margin: auto;
+    font-size: 1.5rem;
+    margin-top: 15px;
 }
 @media (max-width:1000px){
     .contenedor{

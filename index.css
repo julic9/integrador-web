@@ -869,6 +869,7 @@ ul.slider li:target {
 
     .invitacion {
         flex-direction: column;
+        gap: 20px;
     }
 
     .invitacion img {
