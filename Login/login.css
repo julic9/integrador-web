@@ -3,6 +3,8 @@ body{
     font-family: 'Bebas Neue', cursive;
     display: flex;
     flex-direction: column;
+    max-width: 1440px;
+    margin: auto;
 }
 .contenedor{
     display: flex;

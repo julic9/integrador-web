@@ -1,11 +1,14 @@
 html {
     scroll-behavior: smooth;
+    background-color: #ddbea85b;
 }
 
 body {
     background-color: white;
     margin: 0;
     scroll-behavior: smooth;
+    max-width: 1440px;
+    margin: auto;
 
 }
 
@@ -880,10 +883,12 @@ ul.slider li:target {
         gap: 15px;
         padding: 8px;
     }
-    .ambos{
+
+    .ambos {
         width: 100%;
     }
-    .el{
+
+    .el {
         width: 90%;
     }
 
@@ -921,6 +926,7 @@ ul.slider li:target {
     .nosotras {
         width: 100%;
     }
+
     .fiesta {
         padding: 6px;
     }
